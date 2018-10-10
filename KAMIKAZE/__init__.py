@@ -1,6 +1,7 @@
 from .client import KAMIKAZE
 from .channel import Channel
 from .oepoll import OEPoll
+from .call import Call
 from akad.ttypes import OpType
 
 __copyright__       = 'Copyright 2018 by Fadhiil Rachman'
@@ -10,4 +11,4 @@ __author__          = 'Fadhiil Rachman'
 __author_email__    = 'fadhiilrachman@gmail.com'
 __url__             = 'http://github.com/fadhiilrachman/line-py'
 
-__all__ = ['KAMIKAZE', 'Channel', 'OEPoll', 'OpType', Call]
+__all__ = ['KAMIKAZE', 'Channel', 'OEPoll', 'OpType', 'Call']
