@@ -202,7 +202,7 @@ class Talk(object):
     def sendImageWithURL(self, to, url):
         path = self.downloadFileURL(url, 'path')
         return self.sendImage(to, path)
-    #    return self.deleteFile(path)
+        return self.deleteFile(path)
 
     @loggedIn
     def sendGIF(self, to, path):
