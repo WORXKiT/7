@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from .client import LINE
+from .client import KAMIKAZE
 from types import *
 
 import os, sys, threading, time
@@ -11,8 +11,8 @@ class OEPoll(object):
     __squareSyncToken = {}
 
     def __init__(self, client):
-        if type(client) is not LINE:
-            raise Exception('You need to set LINE instance to initialize OEPoll')
+        if type(client) is not KAMIKAZE:
+            raise Exception('You need to set KAMIKAZE instance to initialize OEPoll')
         self.client = client
     
     def __fetchOperation(self, revision, count=1):
