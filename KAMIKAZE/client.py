@@ -7,7 +7,7 @@ from .square import Square
 from .call import Call
 from .timeline import Timeline
 
-class LINE(Auth, Models, Talk, Square, Call, Timeline):
+class KAMIKAZE(Auth, Models, Talk, Square, Call, Timeline):
 
     def __init__(self, idOrAuthToken=None, passwd=None, certificate=None, systemName=None, appName=None, showQr=False, keepLoggedIn=True):
         
